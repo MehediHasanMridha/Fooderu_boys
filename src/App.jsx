@@ -1,11 +1,10 @@
-import "./App.css";
-import GeneralPost from "./components/home/GeneralPost";
+import Home from "./components/home/Home";
 
 function App() {
   return (
     <>
       <div>
-        <GeneralPost />
+        <Home />
       </div>
     </>
   );
