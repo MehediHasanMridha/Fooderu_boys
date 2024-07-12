@@ -5,7 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    screens: {
+      'md':'768px',
+      'tb': '834px',
+      '2xl':'1536px'
+      // => @media (min-width: 640px) { ... }
+
+      
+    },
+    extend: {
+      fontfamily:{
+        body:["Inter"]
+      }
+    },
   },
   colors: {
     whiteblack: '#585858', // Your desired color in hex format
