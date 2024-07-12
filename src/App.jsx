@@ -1,4 +1,6 @@
 import LoginForm from "./Components/LoginForm"
+import SignUp from "./Components/SignUp"
+
 import "./index.css"
 function App() {
   
@@ -6,7 +8,7 @@ function App() {
   return (
     <>
       <div >
-            <LoginForm></LoginForm>
+            <SignUp></SignUp>
         </div>
         
     </>
