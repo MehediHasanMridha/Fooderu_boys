@@ -15,7 +15,7 @@ export default {
     },
     extend: {
       fontfamily:{
-        body:["Inter"]
+        body:["Inter",]
       }
     },
   },

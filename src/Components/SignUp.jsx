@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../assets/Logo.png";
-import Rectangle127 from "../assets/Rectangle 127.jpg";
+import Rectangle127 from "../assets/Rectangle Signup.jpg";
 import Google from "../assets/Google.png";
 import Facebook from "../assets/Facebook.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
