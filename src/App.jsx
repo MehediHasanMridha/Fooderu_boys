@@ -1,15 +1,10 @@
 import "./App.css";
-import GeneralPost from "./components/home/GeneralPost";
+import UserProfile from "./components/restaurant/UserProfile";
 
 function App() {
   return (
     <>
-      <div>
-        <GeneralPost />
-        <>Mehedi</>
-        <>Hasan</>
-        Checking
-      </div>
+      <UserProfile />
     </>
   );
 }
