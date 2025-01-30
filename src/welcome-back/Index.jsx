@@ -24,7 +24,7 @@ const WelcomeBack = () => {
       {/* Form */}
 
       {/* First Input Field */}
-      <div className="relative w-[382px]">
+      <div className="relative w-[382px] md:w-[200px] ">
         {/* Icon inside input */}
         <img
           src={frame1}
@@ -41,7 +41,7 @@ const WelcomeBack = () => {
       </div>
 
       {/* Second Input Field */}
-      <div className="relative w-[382px] mt-6">
+      <div className="relative w-[382px] md:w-[452px] mt-6">
         {/* Icon inside input */}
         <img
           src={frame2}
@@ -64,7 +64,7 @@ const WelcomeBack = () => {
         />
       </div>
 
-      <div className="relative w-[334px] h-[21px] flex justify-between items-center mt-[10px]">
+      <div className="relative w-[334px] h-[21px] flex justify-between items-center mt-[10px] md:w-[409px] ">
         <div className="w-[140px] h-[21px] flex items-center gap-2">
           {/* Icon or Checkbox */}
           <input
@@ -88,7 +88,7 @@ const WelcomeBack = () => {
       </div>
 
       {/* Log-in button */}
-      <button className="mt-8 w-[382px] h-[56px] px-[10px] bg-gradient-to-r from-[#FFB800] to-[#FF7A00] rounded-full text-white text-[18px] font-medium leading-[30px] font-inter">
+      <button className="mt-8 w-[382px] h-[56px] px-[10px] bg-gradient-to-r from-[#FFB800] to-[#FF7A00] rounded-full text-white text-[18px] font-medium leading-[30px] font-inter md:w-[452px] ">
         Log In
       </button>
 
@@ -109,7 +109,7 @@ const WelcomeBack = () => {
       </div>
 
       {/* Log in with Google */}
-      <button className="w-[382px] h-[56px] px-[24px] rounded-full border border-solid border-[#d2d2d2] flex items-center justify-center gap-2">
+      <button className="w-[382px] h-[56px] px-[24px] rounded-full border border-solid border-[#d2d2d2] flex items-center justify-center gap-2 md:w-[452px]">
         {/* Google Icon */}
         <img src={googleIcon} alt="Google Icon" className="w-[24px] h-[24px]" />
 
@@ -120,7 +120,7 @@ const WelcomeBack = () => {
       </button>
 
       {/* Log in with Facebook */}
-      <button className="mt-[18px] w-[382px] h-[56px] px-[24px] rounded-full border border-solid border-[#d2d2d2] flex items-center justify-center gap-2">
+      <button className="mt-[18px] w-[382px] h-[56px] px-[24px] rounded-full border border-solid border-[#d2d2d2] flex items-center justify-center gap-2 md:w-[452px]">
         {/* Google Icon */}
         <img
           src={facebookIcon}
