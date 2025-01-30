@@ -1,5 +1,11 @@
+import WelcomeBack from "./welcome-back/Index";
+
 const App = () => {
-  return <div className="text-4xl font-extrabold">Welcome Back Page</div>;
+  return (
+    <div>
+      <WelcomeBack />
+    </div>
+  );
 };
 
 export default App;
