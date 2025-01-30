@@ -2,7 +2,7 @@ import icon from "./assets/quick-setup.png";
 function App() {
   return (
     <div className="h-screen">
-      <div className="w-[382px] md:w-[480px] h-[403px] md:h-[420px] mx-auto mt-[116px] md:mt-[333px] lg:mt-[116px]">
+      <div className="w-[382px] border border-red-500 md:w-[452px] lg:w-[480px] h-[403px] md:h-[415px] lg:h-[440px] mx-auto mt-[120px]">
         <img
           className="h-[270px] md:h-[280px] w-[270px] md:w-[280px] mx-auto"
           src={icon}
