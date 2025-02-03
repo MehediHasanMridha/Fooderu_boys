@@ -1,5 +1,11 @@
+import OTP from "./otp/Index";
+
 const App = () => {
-  return <div className="text-2xl bg-red-600">Tailwind</div>;
+  return (
+    <div>
+      <OTP />
+    </div>
+  );
 };
 
 export default App;
