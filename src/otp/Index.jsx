@@ -49,7 +49,32 @@ const OTP = () => {
       </p>
 
       {/* Input-field */}
-      <input type="text" className="" />
+      <div className="flex justify-start gap-[14px]">
+        <input
+          type="text"
+          className="my-6 w-[85px] h-[56px] border border-[#d2d2d2] rounded-[100px] px-3 py-6 text-center"
+        />
+
+        <input
+          type="text"
+          className="my-6 w-[85px] h-[56px] border border-[#d2d2d2] rounded-[100px] px-3 py-6 text-center"
+        />
+
+        <input
+          type="text"
+          className="my-6 w-[85px] h-[56px] border border-[#d2d2d2] rounded-[100px] px-3 py-6 text-center"
+        />
+
+        <input
+          type="text"
+          className="my-6 w-[85px] h-[56px] border border-[#d2d2d2] rounded-[100px] px-3 py-6 text-center"
+        />
+      </div>
+
+      {/* Confirm button */}
+      <button className="w-[382px] h-[56px] px-[10px] bg-gradient-to-r from-[#FFB800] to-[#FF7A00] rounded-full text-white text-[18px] font-medium leading-[30px] font-inter cursor-pointer">
+        Confirm
+      </button>
     </div>
   );
 };
