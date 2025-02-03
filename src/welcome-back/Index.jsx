@@ -20,7 +20,8 @@ const WelcomeBack = () => {
             Welcome Back!
           </h1>
           <p className="text-[16px] font-normal leading-[140%] text-[#585858] font-inter">
-            Already have an account? Log In now
+            Already have an account?{" "}
+            <span className="cursor-pointer">Log In now</span>
           </p>
         </div>
 
@@ -63,7 +64,7 @@ const WelcomeBack = () => {
           <img
             src={frame3}
             alt="password visibility icon"
-            className="absolute right-4 top-1/2 transform -translate-y-1/2 w-5 h-5"
+            className="absolute right-4 top-1/2 transform -translate-y-1/2 w-5 h-5 cursor-pointer"
           />
         </div>
 
@@ -72,7 +73,7 @@ const WelcomeBack = () => {
           <div className="w-[140px] h-[21px] flex items-center gap-2">
             {/* Icon or Checkbox */}
             <input
-              className="w-[16px] h-[16px] border border-[#161616]"
+              className="w-[16px] h-[16px] border border-[#161616] cursor-pointer"
               type="checkbox"
               name="checkbox"
             />
@@ -85,14 +86,14 @@ const WelcomeBack = () => {
 
           {/* Forgot password? */}
           <div className="w-[119px] h-[21px] flex items-center gap-2">
-            <p className="text-[#161616] text-[14px] font-normal leading-[21px] font-inter text-left">
+            <p className="text-[#161616] text-[14px] font-normal leading-[21px] font-inter text-left cursor-pointer">
               Forgot password?
             </p>
           </div>
         </div>
 
         {/* Log-in button */}
-        <button className="mt-8 w-[382px] h-[56px] px-[10px] bg-gradient-to-r from-[#FFB800] to-[#FF7A00] rounded-full text-white text-[18px] font-medium leading-[30px] font-inter md:w-[452px] 2xl:w-[480px]">
+        <button className="mt-8 w-[382px] h-[56px] px-[10px] bg-gradient-to-r from-[#FFB800] to-[#FF7A00] rounded-full text-white text-[18px] font-medium leading-[30px] font-inter md:w-[452px] 2xl:w-[480px] cursor-pointer">
           Log In
         </button>
 
@@ -113,7 +114,7 @@ const WelcomeBack = () => {
         </div>
 
         {/* Log in with Google */}
-        <button className="w-[382px] h-[56px] px-[24px] rounded-full border border-solid border-[#d2d2d2] flex items-center justify-center gap-2 md:w-[452px] 2xl:w-[480px]">
+        <button className="w-[382px] h-[56px] px-[24px] rounded-full border border-solid border-[#d2d2d2] flex items-center justify-center gap-2 md:w-[452px] 2xl:w-[480px] cursor-pointer">
           {/* Google Icon */}
           <img
             src={googleIcon}
@@ -128,7 +129,7 @@ const WelcomeBack = () => {
         </button>
 
         {/* Log in with Facebook */}
-        <button className="mt-[18px] w-[382px] h-[56px] px-[24px] rounded-full border border-solid border-[#d2d2d2] flex items-center justify-center gap-2 md:w-[452px] 2xl:w-[480px]">
+        <button className="mt-[18px] w-[382px] h-[56px] px-[24px] rounded-full border border-solid border-[#d2d2d2] flex items-center justify-center gap-2 md:w-[452px] 2xl:w-[480px] cursor-pointer">
           {/* Google Icon */}
           <img
             src={facebookIcon}
@@ -144,13 +145,17 @@ const WelcomeBack = () => {
 
         <p className="mt-9 text-[16px] text-[#161616] font-inter font-medium leading-[19px]">
           Don’t have an account?{" "}
-          <span className="bg-gradient-to-r from-[#FFB800] to-[#FF7A00] bg-clip-text text-transparent text-[16px] font-medium leading-[19px] font-inter underline">
+          <span className="bg-gradient-to-r from-[#FFB800] to-[#FF7A00] bg-clip-text text-transparent text-[16px] font-medium leading-[19px] font-inter underline cursor-pointer">
             Sign up
           </span>
         </p>
       </div>
 
-      <img src={pic1} alt="Food pic" className="hidden 2xl:block" />
+      <img
+        src={pic1}
+        alt="Food pic"
+        className="hidden 2xl:block 2xl:h-screen"
+      />
     </div>
   );
 };
