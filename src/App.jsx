@@ -1,35 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import stepImage from "./assets/step.svg";
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+    <div className="w-[382px] mx-auto mt-[132px] ">
+      <img src={stepImage} alt="" />
+
+      {/* input field and button */}
+      <div className="w-[382px] h-[220px] grid grid-cols-1 mt-[173px]">
+        <h1 className="text-lg font-medium leading-7">Let us know your name</h1>
+        <div>
+          <input
+            className="border-[#D2D2D2] border-2 rounded-[100px] w-[382px] h-[56px] px-4"
+            type="text"
+            placeholder="+880"
+          />
+        </div>
+        <button className="rounded-[100px] w-[382px] h-[56px] bg-gradient-to-r from-[#FFB800] to-[#FF7A00] text-white">
+          Send OTP
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
