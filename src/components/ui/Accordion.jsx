@@ -8,7 +8,7 @@ const Accordion = ({ title = "", content = "", defaultOpen = false }) => {
 
   return (
     <div
-      className={`w-[1602px] rounded-[32px] pl-8 pt-[37px] pr-7 pb-8 font-nexa transition-all ${
+      className={`w-[1784px] rounded-[32px] pl-8 pt-[37px] pr-7 pb-8 font-nexa transition-all ${
         isOpen ? "bg-[#040633] text-white" : "bg-white text-[#040633]"
       }`}
     >
