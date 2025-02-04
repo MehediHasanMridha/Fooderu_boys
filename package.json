@@ -10,11 +10,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@smastrom/react-rating": "^1.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.2.1",
     "react-rating": "^2.0.5"
+=======
+    "@tailwindcss/vite": "^4.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^4.0.1"
+>>>>>>> 7b08c9876bc040e2bd1c0ff30494cf3ebebadb39
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
