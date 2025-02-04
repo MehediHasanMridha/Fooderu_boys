@@ -14,7 +14,7 @@ function App() {
           type="text"
           placeholder="+880"
         />
-        <button className="rounded-[100px] w-full h-[56px] bg-gradient-to-r from-[#FFB800] to-[#FF7A00] text-white">
+        <button className="rounded-[100px] w-full h-[56px] bg-gradient-to-r from-[#FFB800] to-[#FF7A00] text-white cursor-pointer">
           Send OTP
         </button>
       </div>
