@@ -3,7 +3,7 @@ import Accordion from "../ui/Accordion";
 const FAQ = () => {
   return (
     <div className="max-w-[1920px] mx-auto mt-[352px]">
-      <div className="flex justify-between">
+      <div className="flex justify-between mb-8">
         {/* Title */}
         <h1 className="w-[806px] text-[80px] text-[#040633] font-medium leading-[106px] font-mona-sans">
           FREQUENTLY ASKED QUESTIONS
