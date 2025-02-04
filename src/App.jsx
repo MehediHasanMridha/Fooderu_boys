@@ -1,11 +1,5 @@
-import FAQ from "./components/faq/Index";
-
 const App = () => {
-  return (
-    <div>
-      <FAQ />
-    </div>
-  );
+  return <div></div>;
 };
 
 export default App;
