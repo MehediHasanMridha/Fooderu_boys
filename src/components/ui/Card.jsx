@@ -17,7 +17,7 @@ const Card = ({ id }) => {
         <h2 className="text-[#040633] text-4xl font-medium leading-[52px] w-[560px]">
           Fitbuddy - a fitness app for lifestyle
         </h2>
-        <button className="bg-[#040633] rounded-2xl text-white h-[43.3px] text-[14.35px] font-bold leading-[23.318px] tracking-[0.287px] flex justify-between gap-2 items-center px-[21px] hover:bg-[#852EFF] transition-all ease-in ">
+        <button className="bg-[#040633] cursor-pointer rounded-2xl text-white h-[43.3px] text-[14.35px] font-bold leading-[23.318px] tracking-[0.287px] flex justify-between gap-2 items-center px-[21px] hover:bg-[#852EFF] transition-all ease-in ">
           <h1>View Work</h1>
           <svg
             xmlns="http://www.w3.org/2000/svg"
