@@ -1,15 +1,10 @@
-import FAQ from "./components/faq/Index";
-import Feature from "./components/feature/Feature";
-import Banner from "./components/ui/Banner";
-import Temp from "./components/temp-page/Temp";
+import MarqueeSection from "./components/MarqueeSection";
 
 const App = () => {
   return (
     <>
-      <Banner />
-      <Feature />
-      <FAQ />
-      <Temp/>
+      <MarqueeSection />
+      <div className="w-[1600px] h-[1110px] bg-[#FFFAEE] mx-auto my-[125px] rounded-[48px]"></div>
     </>
   );
 };
