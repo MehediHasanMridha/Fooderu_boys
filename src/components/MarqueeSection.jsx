@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 import MarqueeImage from "./MarqueeImage";
 const MarqueeSection = () => {
   return (
-    <Marquee>
+    <Marquee className="mt-[176px]">
       <MarqueeImage />
       <MarqueeImage />
       <MarqueeImage />

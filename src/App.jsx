@@ -3,6 +3,8 @@ import PlayBtn from "./assets/playBTN.png";
 import Rectangle from "./assets/Rectangle.png";
 import FAQ from "./components/faq/Index";
 import Feature from "./components/feature/Feature";
+import Header from "./components/Header";
+import HeroSection from "./components/HeroSection";
 import MarqueeSection from "./components/MarqueeSection";
 import Temp from "./components/temp-page/Temp";
 import Banner from "./components/ui/Banner";
@@ -10,6 +12,8 @@ import Banner from "./components/ui/Banner";
 const App = () => {
   return (
     <>
+      <Header />
+      <HeroSection />
       <MarqueeSection />
       <div className="w-[1600px] h-[1110px] bg-[#FFFAEE] mx-auto my-[125px] rounded-[48px] relative flex flex-col items-center justify-center">
         <div className="text-[92px] font-[500] h-[80px] absolute top-[248px] left-[344px]">
