@@ -1,7 +1,11 @@
 import Frame1 from "./assets/Frame1.png";
 import PlayBtn from "./assets/playBTN.png";
 import Rectangle from "./assets/Rectangle.png";
+import FAQ from "./components/faq/Index";
+import Feature from "./components/feature/Feature";
 import MarqueeSection from "./components/MarqueeSection";
+import Temp from "./components/temp-page/Temp";
+import Banner from "./components/ui/Banner";
 
 const App = () => {
   return (
@@ -80,6 +84,11 @@ const App = () => {
           </div>
         </div>
       </div>
+      <Feature />
+      <Banner />
+      <Feature />
+      <FAQ />
+      <Temp />
     </>
   );
 };
