@@ -1,8 +1,8 @@
 const OTP = () => {
   return (
-    <div className="mt-[132px] mx-6 md:mt-[188px] md:ml[64px] md:flex md:flex-col md:items-center">
+    <div className="mt-[132px] mx-6 md:mt-[188px] md:mx-[64px] md:flex md:flex-col md:items-center 2xl:mt-[144px] 2xl:mx-[490px]">
       {/* Top */}
-      <div className="flex items-center md:w-[660px]">
+      <div className="flex items-center md:w-[660px] 2xl:w-[942px]">
         {/* First Round */}
         <div className="w-6 h-6 p-0 flex justify-center items-center rounded-[100px] bg-gradient-to-r from-[#FFB800] to-[#FF7A00] text-white font-inter text-[14px] font-normal leading-[22px]">
           1
@@ -52,27 +52,27 @@ const OTP = () => {
       <div className="flex justify-start gap-[14px]">
         <input
           type="text"
-          className="my-6 w-[85px] h-[56px] border border-[#d2d2d2] rounded-[100px] px-3 py-6 text-center md:w-24"
+          className="my-6 w-[85px] h-[56px] border border-[#d2d2d2] rounded-[100px] px-3 py-6 text-center md:w-24 2xl:w-[102px]"
         />
 
         <input
           type="text"
-          className="my-6 w-[85px] h-[56px] border border-[#d2d2d2] rounded-[100px] px-3 py-6 text-center md:w-24"
+          className="my-6 w-[85px] h-[56px] border border-[#d2d2d2] rounded-[100px] px-3 py-6 text-center md:w-24 2xl:w-[102px]"
         />
 
         <input
           type="text"
-          className="my-6 w-[85px] h-[56px] border border-[#d2d2d2] rounded-[100px] px-3 py-6 text-center md:w-24"
+          className="my-6 w-[85px] h-[56px] border border-[#d2d2d2] rounded-[100px] px-3 py-6 text-center md:w-24 2xl:w-[102px]"
         />
 
         <input
           type="text"
-          className="my-6 w-[85px] h-[56px] border border-[#d2d2d2] rounded-[100px] px-3 py-6 text-center md:w-24"
+          className="my-6 w-[85px] h-[56px] border border-[#d2d2d2] rounded-[100px] px-3 py-6 text-center md:w-24 2xl:w-[102px]"
         />
       </div>
 
       {/* Confirm button */}
-      <button className="w-[382px] h-[56px] px-[10px] bg-gradient-to-r from-[#FFB800] to-[#FF7A00] rounded-full text-white text-[18px] font-medium leading-[30px] font-inter cursor-pointer md:w-[452px]">
+      <button className="w-[382px] h-[56px] px-[10px] bg-gradient-to-r from-[#FFB800] to-[#FF7A00] rounded-full text-white text-[18px] font-medium leading-[30px] font-inter cursor-pointer md:w-[452px] 2xl:w-[480px]">
         Confirm
       </button>
     </div>
