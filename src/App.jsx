@@ -1,9 +1,9 @@
-import WelcomeBack from "./welcome-back/Index";
+import Stories from "./stories/Index";
 
 const App = () => {
   return (
-    <div>
-      <WelcomeBack />
+    <div className="">
+      <Stories />
     </div>
   );
 };
