@@ -46,34 +46,34 @@ const DateOfBirth = () => {
                     </div>
                 </div>
 
-                <p className="mt-[173px] text-[#585858] text-[18px] font-medium leading-[30px] font-inter md:mt-[240px] ">
-                Your date of birth
+                <p className="mt-[173px] text-start md:w-[452px] text-[#585858] text-[18px] font-medium leading-[30px] font-inter md:mt-[240px] ">
+                Your date of birth  
                 </p>
 
                 {/* Input-field */}
-                <div className="flex  gap-[14px]">
+                <div className="flex  gap-[14px] md:gap-[22px]">
                     <input
                         type="text"
                         placeholder="Day"
-                        className="my-6 w-[118px] h-[56px] border border-[#d2d2d2] rounded-[100px] px-6 py-3 md:w-[135px] md:h-[52px]"
+                        className="my-6 w-[118px] h-[56px] border border-[#d2d2d2] rounded-[100px] px-6 py-3 md:w-[135px] md:h-[52px] lg:w-[144px] lg:h-[56px]"
                     />
 
                     <input
                         type="text"
                         placeholder="Month"
-                        className="my-6 w-[118px] h-[56px] border border-[#d2d2d2] rounded-[100px] px-6 py-3 md:w-[135px] md:h-[52px]"
+                        className="my-6 w-[118px] h-[56px] border border-[#d2d2d2] rounded-[100px] px-6 py-3 md:w-[135px] md:h-[52px] lg:w-[144px] lg:h-[56px]"
                     />
 
                     <input
                         type="text"
                         placeholder="Year"
-                        className="my-6 w-[118px] h-[56px] border border-[#d2d2d2] rounded-[100px] px-6 py-3 md:w-[135px] md:h-[52px]"
+                        className="my-6 w-[118px] h-[56px] border border-[#d2d2d2] rounded-[100px] px-6 py-3 md:w-[135px] md:h-[52px] lg:w-[144px] lg:h-[56px]"
                     />
 
                 </div>
 
                 {/* Confirm button */}
-                <button className="w-[382px] h-[56px] px-[10px] bg-gradient-to-r from-[#FFB800] to-[#FF7A00] rounded-full text-white text-[18px] font-medium leading-[30px] font-inter cursor-pointer md:w-[452px] 2xl:w-[480px]">
+                <button className="w-[382px] lg:w-[480px] h-[56px] px-[10px] bg-gradient-to-r from-[#FFB800] to-[#FF7A00] rounded-full text-white text-[18px] font-medium leading-[30px] font-inter cursor-pointer md:w-[452px] 2xl:w-[480px]">
                     Confirm
                 </button>
             </div>
