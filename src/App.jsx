@@ -1,10 +1,10 @@
-import GeneralPost from "./components/GeneralPost";
+import DateOfBirth from "./components/DateOfBirth";
 
 
 const App = () => {
   return (
     <>
-        <GeneralPost></GeneralPost>
+        <DateOfBirth></DateOfBirth>
     </>
   );
 };
