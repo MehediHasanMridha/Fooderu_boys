@@ -154,7 +154,7 @@ const WelcomeBack = () => {
       <img
         src={pic1}
         alt="Food pic"
-        className="hidden 2xl:block 2xl:h-screen"
+        className="hidden 2xl:block 2xl:min-h-screen"
       />
     </div>
   );
