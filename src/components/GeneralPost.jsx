@@ -78,73 +78,7 @@ const GeneralPost = () => {
                 </div>
 
             </div>
-            {/* all comments part */}
-            <div className="md:w-[816px] grid grid-cols-1 gap-4 mx-auto my-4">
-                {/* 1st comment */}
-                <div className="md:w-[816px] md:h-[63px] flex gap-1">
-                    <div><img src="/public/images/first-comment.jpg" alt="" /></div>
-                    <div className="md:w-auto bg-[#F6F6F6] md:h-[63px] p-2 rounded-xl">
-                        {/* user name */}
-                        <h3 className="font-semibold">Hakim Badshah</h3>
-                        <p className="md:h-[24px]">Their foods are very delicious. Must try 😍 </p>
-                    </div>
-                </div>
-                {/* 2nd comment */}
-                <div className="md:w-[816px] md:h-[63px] flex gap-1">
-                    <div><img src="/public/images/first-comment.jpg" alt="" /></div>
-                    <div className="md:w-auto bg-[#F6F6F6] md:h-[63px] p-2 rounded-xl">
-                        {/* user name */}
-                        <h3 className="font-semibold">Mellano Lee</h3>
-                        <p className="md:h-[24px]">This chicken biriyani is awesome. 🫰 </p>
-                    </div>
-                </div>
-                {/* 3rd comment */}
-                <div className="md:w-[816px] md:h-[63px] flex gap-1">
-                    <div><img src="/public/images/first-comment.jpg" alt="" /></div>
-                    <div className="md:w-auto bg-[#F6F6F6] md:h-[63px] p-2 rounded-xl">
-                        {/* user name */}
-                        <h3 className="font-semibold">Hakim Badshah</h3>
-                        <p className="md:h-[24px]">Their foods are very delicious. Must try 😍 </p>
-                    </div>
-                </div>
-                {/* 4th comment */}
-                <div className="md:w-[816px] md:h-[63px] flex gap-1">
-                    <div><img src="/public/images/first-comment.jpg" alt="" /></div>
-                    <div className="md:w-auto bg-[#F6F6F6] md:h-[63px] p-2 rounded-xl">
-                        {/* user name */}
-                        <h3 className="font-semibold">Mellano Lee</h3>
-                        <p className="md:h-[24px]">This chicken biriyani is awesome. 🫰 </p>
-                    </div>
-                </div>
-                {/* 5th comment */}
-                <div className="md:w-[816px] md:h-[63px] flex gap-1">
-                    <div><img src="/public/images/first-comment.jpg" alt="" /></div>
-                    <div className="md:w-auto bg-[#F6F6F6] md:h-[63px] p-2 rounded-xl">
-                        {/* user name */}
-                        <h3 className="font-semibold">Carolaina Prostenco</h3>
-                        <p className="md:h-[24px]"> Delicious 🔥 </p>
-                    </div>
-                </div>
-                {/* 6th comment */}
-                <div className="md:w-[816px] md:h-[63px] flex gap-1">
-                    <div><img src="/public/images/first-comment.jpg" alt="" /></div>
-                    <div className="md:w-auto bg-[#F6F6F6] md:h-[63px] p-2 rounded-xl">
-                        {/* user name */}
-                        <h3 className="font-semibold">Hakim Badshah</h3>
-                        <p className="md:h-[24px]">Their foods are very delicious. Must try 😍 </p>
-                    </div>
-                </div>
-                {/* 7th comment */}
-                <div className="md:w-[816px] md:h-[63px] flex gap-1">
-                    <div><img src="/public/images/first-comment.jpg" alt="" /></div>
-                    <div className="md:w-auto bg-[#F6F6F6] md:h-[63px] p-2 rounded-xl">
-                        {/* user name */}
-                        <h3 className="font-semibold">Carolaina Prostenco</h3>
-                        <p className="md:h-[24px]">Delicious 🔥</p>
-                    </div>
-                </div>
-
-            </div>
+          
         </div>
        
     );
