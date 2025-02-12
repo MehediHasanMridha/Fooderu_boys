@@ -1,7 +1,7 @@
+import { CiSearch } from "react-icons/ci";
+import { IoIosNotificationsOutline } from "react-icons/io";
+import { IoReorderThreeOutline } from "react-icons/io5";
 import logo from "./assets/Logo (2).png";
-import notification from "./assets/notification.svg";
-import search from "./assets/search.svg";
-import threeDot from "./assets/threeDOt.jpg";
 // icon part here
 import iconTwo from "./assets/Icon/fire-flame.svg";
 import iconFive from "./assets/Icon/Icon five.svg";
@@ -11,16 +11,16 @@ import iconFour from "./assets/Icon/megaphone.svg";
 
 const Navbar = () => {
   return (
-    <div className="w-[430px]  ">
+    <div className="w-[430px] mx-auto">
       {/* top line  */}
-      <div className="flex justify-between px-4 mt-4">
+      <div className="flex justify-between mt-4">
         <div className="flex justify-start gap-1.5">
-          <img src={threeDot} alt="" />
+          <IoReorderThreeOutline className="text-2xl" />
           <img src={logo} alt="" />
         </div>
-        <div className="flex justify-start gap-1.5">
-          <img src={notification} alt="" />
-          <img src={search} alt="" />
+        <div className="flex justify-start gap-1.5 text-2xl ">
+          <IoIosNotificationsOutline />
+          <CiSearch />
         </div>
       </div>
       {/* navigation button  */}
