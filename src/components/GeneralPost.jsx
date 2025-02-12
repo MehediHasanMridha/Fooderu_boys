@@ -65,19 +65,7 @@ const GeneralPost = () => {
                     {/* </button> */}
                 </div>
             </div>
-            {/* comment section */}
-            <div className="md:w-[816px] md:h-[40px] flex gap-2  mx-auto my-3">
-                <div className="md:h-[40px] md:w-[40px]">
-                    <img src="/public/images/Ellipse 1.jpg" alt="" />
-                </div>
-                {/* input field */}
-                <div className="md:w-[760px] w-[374px] h-[32px] md:h-[40px]">
-                        <input className="border relative border-black rounded-3xl w-full md:w-[760px] md:h-[40px] p-2" placeholder="Write your comment" type="text" />
-                        {/* submit comment button */}
-                        <button className="relative -top-8 left-[300px] md:left-[720px] md:-top-3/4"><img className="" src="/public/images/Vector (2).jpg" alt="" /></button>
-                </div>
-
-            </div>
+          
           
         </div>
        
