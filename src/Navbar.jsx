@@ -1,13 +1,16 @@
+import { AiOutlineShop } from "react-icons/ai";
 import { CiSearch } from "react-icons/ci";
+import { HiOutlineUser } from "react-icons/hi2";
 import { IoIosNotificationsOutline } from "react-icons/io";
-import { IoReorderThreeOutline } from "react-icons/io5";
+import {
+  IoFlameOutline,
+  IoNewspaperOutline,
+  IoReorderThreeOutline,
+} from "react-icons/io5";
+import { TbSpeakerphone } from "react-icons/tb";
+
 import logo from "./assets/Logo (2).png";
 // icon part here
-import iconTwo from "./assets/Icon/fire-flame.svg";
-import iconFive from "./assets/Icon/Icon five.svg";
-import iconOne from "./assets/Icon/Icon one.svg";
-import iconThree from "./assets/Icon/Icon three.svg";
-import iconFour from "./assets/Icon/megaphone.svg";
 
 const Navbar = () => {
   return (
@@ -24,21 +27,21 @@ const Navbar = () => {
         </div>
       </div>
       {/* navigation button  */}
-      <div className="flex justify-between mt-2 gap-1.5 ">
-        <button className="flex items-center justify-center mx-auto bg-[#F6F6F6] w-full rounded-xl py-2">
-          <img className="" src={iconOne} alt="" />
+      <div className="flex justify-between mt-2 gap-1.5 text-2xl ">
+        <button className="flex items-center justify-center mx-auto bg-[#F6F6F6] w-full rounded-[8px] py-2 border-b-2 border-[#2131F0] ">
+          <IoNewspaperOutline className="rounded-[86.667px] bg-gradient-to-br from-[#2131F0] to-[#0A82FE] text-lg text-white p-1 " />
         </button>
         <button className="flex items-center justify-center mx-auto w-full rounded-2xl py-2">
-          <img src={iconTwo} alt="" />{" "}
+          <IoFlameOutline />
         </button>
         <button className="flex items-center justify-center mx-auto w-full py-2">
-          <img src={iconThree} alt="" />{" "}
+          <AiOutlineShop />
         </button>
         <button className="flex items-center justify-center mx-auto w-full py-2">
-          <img src={iconFour} alt="" />{" "}
+          <TbSpeakerphone />
         </button>
         <button className="flex items-center justify-center mx-auto w-full py-2">
-          <img src={iconFive} alt="" />{" "}
+          <HiOutlineUser />
         </button>
       </div>
     </div>
