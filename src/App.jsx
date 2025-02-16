@@ -1,9 +1,9 @@
-import WelcomeBack from "./welcome-back/Index";
+import Restaurant from "./components/restaurant";
 
 const App = () => {
   return (
     <div>
-      <WelcomeBack />
+      <Restaurant />
     </div>
   );
 };
