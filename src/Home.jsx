@@ -1,5 +1,10 @@
 import { BsThreeDots } from "react-icons/bs";
-import { FaCommentDots, FaLocationDot, FaStar } from "react-icons/fa6";
+import {
+  FaCommentDots,
+  FaLocationDot,
+  FaRegStar,
+  FaStar,
+} from "react-icons/fa6";
 import { GiFlamer } from "react-icons/gi";
 import foodImage from "./assets/foodItem.png";
 import profileImage from "./assets/restaurantProfile.png";
@@ -55,6 +60,18 @@ const Home = () => {
         </div>
       </div>
       {/* rating here  */}
+      <div className="mt-3.5 flex justify-between ">
+        <h1 className="flex gap-0.5 bg-[#F6F6F6] w-fit px-2 py-1.5 rounded-[100px] ">
+          <FaStar className="text-[#FFB800]  " />
+          <FaStar className="text-[#FFB800]  " />
+          <FaStar className="text-[#FFB800]  " />
+          <FaRegStar className="text-[#585858] " />
+          <FaRegStar className="text-[#585858] " />
+        </h1>
+        <button className="rounded-[50px] bg-gradient-to-br from-[#FFB800] to-[#FF7A00] px-6 py-1.5 text-white ">
+          See direction
+        </button>
+      </div>
     </div>
   );
 };
