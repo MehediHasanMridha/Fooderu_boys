@@ -9,7 +9,7 @@ const variants = {
 const Button = ({ children, variant, className }) => {
   return (
     <button
-      className={`w-full px-4 py-2 text-center rounded-[50px] font-inter ${variants[variant]} ${className}`}
+      className={`w-full h-[32px] px-4 py-2 flex justify-center items-center rounded-[50px] font-inter cursor-pointer ${variants[variant]} ${className}`}
     >
       {children}
     </button>
