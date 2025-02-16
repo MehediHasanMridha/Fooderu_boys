@@ -1,4 +1,4 @@
-import FilterInputField from "./filter-input-field";
+import FilterInputField from "../../../ui/filter-input-field";
 
 const Filter = () => {
   return (

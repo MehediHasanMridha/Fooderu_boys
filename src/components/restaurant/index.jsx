@@ -1,4 +1,4 @@
-import Card from "./card";
+import Card from "../../ui/card";
 import Filter from "./filter";
 
 const Restaurant = () => {
