@@ -18,7 +18,7 @@ const Navbar = () => {
       {/* top line  */}
       <div className="flex justify-between xl:grow gap-6 ">
         {/* top left  */}
-        <div className="flex justify-start xl:justify-end w-[140px] md:w-[132px] xl:w-[20%] items-center gap-1.5  ">
+        <div className="flex justify-start xl:justify-end w-[140px] md:w-[132px] xl:w-[20%] items-center gap-1.5 border border-red-500  ">
           <IoReorderThreeOutline className="text-2xl xl:hidden" />
           <img
             className="w-[100px] h-[30px] md:w-[95px] xl:w-[181px] xl:mx-auto xl:h-14 "
@@ -28,7 +28,7 @@ const Navbar = () => {
         </div>
 
         {/* top middle  */}
-        <div className="hidden md:block w-[358px] xl:w-[45%] ">
+        <div className="hidden md:block w-[358px] xl:w-[45%] border border-blue-500">
           <div className="w-full flex justify-between gap-2">
             {/* feed  */}
             <button className="w-[65.8px] xl:w-[150px] h-10 xl:h-14 flex justify-center items-center flex-col hover:cursor-pointer bg-[#F6F6F6] rounded-3xl ">
@@ -63,7 +63,7 @@ const Navbar = () => {
         </div>
 
         {/* top right  */}
-        <div className="flex justify-end xl:justify-start items-center gap-1.5 text-2xl relative lg:w-[200px] xl:w-[16%]  ">
+        <div className="flex justify-end xl:justify-start items-center gap-1.5 text-2xl relative xl:w-[16%] border border-yellow-500 ">
           {/* search icon  */}
           <CiSearch className="text-2xl xl:absolute xl:left-3 xl:top-4 " />
           <input
