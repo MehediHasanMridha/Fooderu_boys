@@ -6,9 +6,9 @@ import icon from "../../assets/human_icon.svg";
 
 const Restaurant = () => {
   return (
-    <div className=" w-[430px] mx-auto">
+    <div className="w-[430px] md:w-[756px] mx-auto">
       <Filter />
-      <div className="m-2 grid grid-cols-2 gap-2">
+      <div className="m-2 md:m-4 grid grid-cols-2 gap-2 md:grid-cols-3 md:gap-4">
         <Card
           img={kacchiBhaiIcon}
           title="Kacci Bhai"
