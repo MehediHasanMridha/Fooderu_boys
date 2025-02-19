@@ -1,8 +1,4 @@
-// import { BsThreeDots } from "react-icons/bs";
-// import { RxCross2 } from "react-icons/rx";
-// import { TbArrowWaveRightUp } from "react-icons/tb";
-// import Rating from "react-rating";
-// // extra start
+
 import { FaLocationDot } from 'react-icons/fa6';
 import image1 from '../../public/Image/Rectangle 11.png'
 import image2 from '../../public/Image/Rectangle 130 (1).png'
