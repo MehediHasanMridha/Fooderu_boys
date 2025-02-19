@@ -15,7 +15,7 @@ const ProfileBanner = () => {
 
                     {/* change cover button  */}
                     <button
-                        className="rounded-[100px] bg-[rgba(22,22,22,0.56)] inline-flex h-[20px] px-[6px] py-[4px] justify-center items-center shrink-0 text-white font-inter text-[10px] font-normal leading-none absolute bottom-[9.7px] right-[10px]"
+                        className="rounded-[100px] bg-[rgba(22,22,22,0.56)] inline-flex h-[20px] px-[6px] py-[4px] justify-center items-center shrink-0 text-white text-[10px] font-normal leading-none absolute bottom-[9.7px] right-[10px]"
                     >
                         Change cover
                     </button>
