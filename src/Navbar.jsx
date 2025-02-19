@@ -18,17 +18,52 @@ const Navbar = () => {
       {/* top line  */}
       <div className="flex justify-between mt-4 ">
         {/* top left  */}
-        <div className="flex justify-start w-[140px] border border-red-500 gap-1.5">
+        <div className="flex justify-start w-[140px] md:w-[132px] items-center border border-red-500 gap-1.5">
           <IoReorderThreeOutline className="text-2xl xl:hidden" />
           <img
-            className="w-[100px] h-[30px] md:w-[80px] xl:w-[181px] xl:h-14 "
+            className="w-[100px] h-[30px] md:w-[95px] xl:w-[181px] xl:h-14 "
             src={logo}
             alt=""
           />
         </div>
 
+        {/* top middle  */}
+        <div className="hidden md:block w-[358px] border border-blue-500 ">
+          <div className="w-full flex gap-2 border border-emerald-500 ">
+            {/* feed  */}
+            <button className="w-[65.8px] h-10 flex justify-center items-center flex-col hover:cursor-pointer hover:bg-gray-50  border border-amber-600">
+              <IoNewspaperOutline className="rounded-[86.667px] bg-gradient-to-br from-[#2131F0] to-[#0A82FE] text-lg text-white p-1 mt-1 " />
+              <h2 className="text-xs text-[#161616] ">Feed</h2>
+            </button>
+
+            {/* trading  */}
+            <button className="w-[65.8px] h-10 flex justify-center items-center flex-col hover:cursor-pointer hover:bg-gray-50  border border-amber-600">
+              <IoFlameOutline className="text-lg" />
+              <h2 className="text-xs text-[#585858] ">Trading</h2>
+            </button>
+
+            {/* restaurant  */}
+            <button className="w-[65.8px] h-10 flex justify-center items-center flex-col hover:cursor-pointer hover:bg-gray-50  border border-amber-600">
+              <AiOutlineShop className="md:text-lg" />
+              <h2 className="text-xs text-[#585858] ">Restaurant</h2>
+            </button>
+
+            {/* event  */}
+            <button className="w-[65.8px] h-10 flex justify-center items-center flex-col hover:cursor-pointer hover:bg-gray-50  border border-amber-600">
+              <TbSpeakerphone className="md:text-lg" />
+              <h2 className="text-xs text-[#585858] ">Event</h2>
+            </button>
+
+            {/* Profile  */}
+            <button className="w-[65.8px] h-10 flex justify-center items-center flex-col hover:cursor-pointer hover:bg-gray-50  border border-amber-600 ">
+              <HiOutlineUser className="text-lg" />
+              <h2 className="text-xs text-[#585858] ">Profile</h2>
+            </button>
+          </div>
+        </div>
+
         {/* top right  */}
-        <div className="flex justify-start gap-1.5 text-2xl relative xl:w-[412px] border border-amber-500 ">
+        <div className="flex justify-start items-center gap-1.5 text-2xl relative xl:w-[412px] border border-amber-500 ">
           {/* search icon  */}
           <CiSearch className="text-2xl xl:absolute xl:left-3 xl:top-3 " />
           <input
