@@ -1,6 +1,7 @@
-import StoryCard from "../storyCard/Index";
+// import StoryCard from "../storyCard/Index";
 
-import storyPic from "../assets/storyPic.jpg";
+import storyPic from '../../../src/assets/storyPic.jpg'
+import StoryCard from "../StoryCard/Index";
 
 const Stories = () => {
   return (
