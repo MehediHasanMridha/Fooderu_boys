@@ -1,6 +1,6 @@
-import profileBannerImg from '../../assets/profile-banner.png'
-import profilePic from '../../assets/profile-pic.jpeg'
-import cameraIcon from '../../assets/Camera.svg';
+import profileBannerImg from '../../assets/profile-icons/profile-banner.png'
+import profilePic from '../../assets/profile-icons/profile-pic.jpeg'
+import cameraIcon from '../../assets/profile-icons/Camera.svg';
 
 const ProfileBanner = () => {
     return (

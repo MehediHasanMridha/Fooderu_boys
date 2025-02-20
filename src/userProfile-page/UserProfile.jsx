@@ -1,4 +1,5 @@
 import HorizontalLine from "../shared-component/HorizontalLine";
+import GeneralPost from "./card section/GeneralPost";
 import InfoPersonal from "./personal-info/InfoPersonal";
 import ProfileBanner from "./profile-banner/ProfileBanner";
 import ProfileButtons from "./profile-button/ProfileButtons";
@@ -18,6 +19,7 @@ const UserProfile = () => {
                 <ProfileTab />
             </div>
             <InfoPersonal />
+            <GeneralPost/>
 
         </div>
     );

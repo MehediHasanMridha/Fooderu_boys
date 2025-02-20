@@ -1,8 +1,8 @@
 import InfoBox from "../../shared-component/InfoBox";
-import homeIcon from '../../assets/Home.svg'
-import callIcon from '../../assets/call.svg'
-import mailIcon from '../../assets/mail.svg'
-import cakeIcon from '../../assets/cake.svg'
+import homeIcon from '../../assets/profile-icons/Home.svg'
+import callIcon from '../../assets/profile-icons/call.svg'
+import mailIcon from '../../assets/profile-icons/mail.svg'
+import cakeIcon from '../../assets/profile-icons/cake.svg'
 import HorizontalLine from "../../shared-component/HorizontalLine";
 
 
