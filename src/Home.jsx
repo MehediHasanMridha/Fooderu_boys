@@ -92,6 +92,24 @@ const Home = () => {
         />
         <IoSend className="text-[#939393] text-2xl absolute right-6 top-1 " />
       </div>
+
+      {[1, 2, 3, 4, 5].map((item) => (
+        <div key={item} className="flex justify-start gap-4 my-2">
+          <img
+            src={userProfileImage}
+            className="w-8 h-8 rounded-full object-fill"
+            alt=""
+          />
+          <div className="rounded-[8px] bg-[#F6F6F6] p-2 ">
+            <h2 className="text-[#161616] text-sm font-medium leading-[22px]  ">
+              Hakim Badshah
+            </h2>
+            <p className="text-[#585858] leading-[140%] ">
+              Their foods are very delicious. Must try 😍
+            </p>
+          </div>
+        </div>
+      ))}
     </div>
   );
 };
