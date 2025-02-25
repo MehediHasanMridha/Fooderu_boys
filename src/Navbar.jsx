@@ -14,7 +14,7 @@ import logo from "./assets/Logo (2).png";
 
 const Navbar = () => {
   return (
-    <div className="w-[430px] md:w-[771px] xl:w-[1920px] mx-auto md:px-1 2xl:h-16 ">
+    <div className="w-[430px] md:w-[771px] xl:w-[1920px] mx-auto md:px-1 2xl:h-16 shadow-md  ">
       {/* top line  */}
       <div className="flex justify-between xl:grow gap-6 ">
         {/* top left  */}
