@@ -19,10 +19,10 @@ const Card = ({ img, title, icon, followers }) => {
           {followers} People follow them
         </p>
       </div>
-      <Button variant="primary" className="md:font-medium xl:h-10">
+      <Button variant="primary" className="md:font-medium xl:h-10 w-full">
         Follow
       </Button>
-      <Button variant="outline" className="xl:h-10">
+      <Button variant="outline" className="xl:h-10 w-full">
         View Profile
       </Button>
     </div>

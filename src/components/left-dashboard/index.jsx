@@ -1,4 +1,5 @@
-import Profile from "./profile";
+import Divider from "../../ui/divider";
+import Profile from "../../ui/profile";
 
 import aboutIcon from "../../assets/about.svg";
 import faqIcon from "../../assets/faq.svg";
@@ -9,9 +10,9 @@ import saveIcon from "../../assets/save.svg";
 import settingsIcon from "../../assets/settings.svg";
 import termsIcon from "../../assets/terms.svg";
 
-const Dashboard = () => {
+const LeftDashboard = () => {
   return (
-    <div className="hidden 2xl:p-6 2xl:w-[412px] 2xl:h-screen 2xl:flex 2xl:flex-col 2xl:gap-10 2xl:shadow-md">
+    <div className="hidden 2xl:p-6 2xl:w-[412px] 2xl:min-h-screen 2xl:flex 2xl:flex-col 2xl:gap-10 2xl:shadow-md">
       <div className="flex gap-2 items-center">
         <img src={profileIcon} alt="profile" className="w-12 h-12" />
         <p className="text-[20px] text-[#161616] font-medium font-inter">
@@ -21,20 +22,18 @@ const Dashboard = () => {
       <Profile icon={saveIcon} title="Saved" />
       <Profile icon={restaurantIcon} title="Restaurants" />
 
-      {/*divider  */}
-      <div className="border w-[364px] h-[1px] border-[#D2D2D2;]"></div>
+      <Divider />
 
       <Profile icon={settingsIcon} title="Settings" />
       <Profile icon={aboutIcon} title="About Us" />
       <Profile icon={faqIcon} title="FAQs" />
       <Profile icon={termsIcon} title="Terms & Conditions" />
 
-      {/*divider  */}
-      <div className="border w-[364px] h-[1px] border-[#D2D2D2;]"></div>
+      <Divider />
 
       <Profile icon={logIcon} title="Log Out" />
     </div>
   );
 };
 
-export default Dashboard;
+export default LeftDashboard;
