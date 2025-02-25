@@ -24,10 +24,10 @@ const GeneralPost = () => {
                     </div>
                     <div className='flex justify-between gap-5'>
                         <div className="md:h-9 md:w-[98px] md:ml-2 lg:w-[104px] w-[70px] h-[27px]  ">
-                            <button className="btn bg-[#FFB800] rounded-full md:font-semibold p-[7px] text-white w-full">Follow</button>
+                            <button className="cursor-pointer btn bg-[#FFB800] rounded-full md:font-semibold p-[7px] text-white w-full">Follow</button>
                         </div>
                         <div className="flex md:ml-1 items-center my-auto justify-between gap-1 md:w-[56px] md:h-6">
-                            <button className='w-6 h-6 md:h-[22px] md:w-[22px] '><img src="../../assets/card-icons/Frame.png" alt="" /></button>
+                            <button className='cursor-pointer w-6 h-6 md:h-[22px] md:w-[22px] '><img src="../../assets/card-icons/Frame.png" alt="" /></button>
                         </div>
                     </div>
 

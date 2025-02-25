@@ -9,13 +9,13 @@ const ProfileBanner = () => {
                 {/* image + change button container  */}
                 <div className='relative'>
                     <img
-                        className="w-[430px] h-[132.617px] shrink-0 rounded-b-lg object-cover"
+                        className="w-[430px] h-[132.617px]  shrink-0 rounded-b-lg object-cover"
                         src={profileBannerImg}
                         alt="" />
 
                     {/* change cover button  */}
                     <button
-                        className="rounded-[100px] bg-[rgba(22,22,22,0.56)] inline-flex h-[20px] px-[6px] py-[4px] justify-center items-center shrink-0 text-white text-[10px] font-normal leading-none absolute bottom-[9.7px] right-[10px]"
+                        className="rounded-[100px] cursor-pointer bg-[rgba(22,22,22,0.56)] inline-flex h-[20px] px-[6px] py-[4px] justify-center items-center shrink-0 text-white text-[10px] font-normal leading-none absolute bottom-[9.7px] right-[10px]"
                     >
                         Change cover
                     </button>

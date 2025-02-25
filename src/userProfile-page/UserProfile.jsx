@@ -20,7 +20,6 @@ const UserProfile = () => {
             </div>
             <InfoPersonal />
             <GeneralPost/>
-
         </div>
     );
 };
