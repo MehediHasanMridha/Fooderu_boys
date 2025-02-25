@@ -1,6 +1,3 @@
-import Divider from "../../ui/divider";
-import Profile from "../../ui/profile";
-
 import aboutIcon from "../../assets/about.svg";
 import faqIcon from "../../assets/faq.svg";
 import logIcon from "../../assets/log.svg";
@@ -9,7 +6,8 @@ import restaurantIcon from "../../assets/restaurant.svg";
 import saveIcon from "../../assets/save.svg";
 import settingsIcon from "../../assets/settings.svg";
 import termsIcon from "../../assets/terms.svg";
-
+import Divider from "../../ui/divider/Index.jsx";
+import Profile from "../../ui/profile/Index.jsx";
 const LeftDashboard = () => {
   return (
     <div className="hidden 2xl:p-6 2xl:w-[412px] 2xl:min-h-screen 2xl:flex 2xl:flex-col 2xl:gap-10 2xl:shadow-md">
