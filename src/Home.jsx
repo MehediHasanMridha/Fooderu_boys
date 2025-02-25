@@ -1,3 +1,4 @@
+import { BiMessageRoundedDots } from "react-icons/bi";
 import { BsThreeDots } from "react-icons/bs";
 import {
   FaCommentDots,
@@ -6,7 +7,9 @@ import {
   FaStar,
 } from "react-icons/fa6";
 import { GiFlamer } from "react-icons/gi";
+import { IoSend } from "react-icons/io5";
 import foodImage from "./assets/foodItem.png";
+import userProfileImage from "./assets/profile.jpeg";
 import profileImage from "./assets/restaurantProfile.png";
 
 const Home = () => {
@@ -71,6 +74,23 @@ const Home = () => {
         <button className="rounded-[50px] bg-gradient-to-br from-[#FFB800] to-[#FF7A00] px-6 py-1.5 text-white ">
           See direction
         </button>
+      </div>
+
+      {/* writing comment  */}
+      <div className="flex justify-between gap-2 relative my-3">
+        <img
+          className="w-8 h-8 object-center rounded-full "
+          src={userProfileImage}
+          alt=""
+        />
+        <BiMessageRoundedDots className="text-2xl text-[#585858] absolute left-12 top-1 " />
+        <input
+          type="text"
+          name=""
+          id=""
+          className="rounded-[100px] border w-full border-[#D2D2D2] px-8  "
+        />
+        <IoSend className="text-[#939393] text-2xl absolute right-6 top-1 " />
       </div>
     </div>
   );
