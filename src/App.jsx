@@ -1,22 +1,26 @@
 import LeftDashboard from "./components/left-dashboard";
 import Restaurant from "./components/restaurant";
 import RightDashboard from "./components/right-dashboard";
+import Navbar from "./Navbar.jsx";
 
 const App = () => {
   return (
-    <div className="2xl:flex 2xl:gap-6 2xl:justify-center max-w-screen-[1920px]">
-      <div>
-        <LeftDashboard />
-      </div>
+    <>
+      <Navbar />
+      <div className="2xl:flex 2xl:gap-6 2xl:justify-center max-w-screen-[1920px] mt-4">
+        <div>
+          <LeftDashboard />
+        </div>
 
-      <div>
-        <Restaurant />
-      </div>
+        <div>
+          <Restaurant />
+        </div>
 
-      <div>
-        <RightDashboard />
+        <div>
+          <RightDashboard />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
