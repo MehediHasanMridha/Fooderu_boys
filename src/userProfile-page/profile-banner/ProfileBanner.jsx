@@ -9,7 +9,7 @@ const ProfileBanner = () => {
                 {/* image + change button container  */}
                 <div className='relative'>
                     <img
-                        className="w-[430px] md:w-[740.763px]  h-[132.617px] md:h-[228.072px] shrink-0 rounded-b-lg object-cover"
+                        className="w-full h-[132.617px] md:h-[228.072px] 2xl:h-[500px] shrink-0 rounded-b-2xl object-cover"
                         src={profileBannerImg}
                         alt="" />
 
@@ -22,10 +22,10 @@ const ProfileBanner = () => {
                 </div>
                 {/* profile image with camera icon  */}
                 <img
-                    className="w-[100px] md:w-[142px] h-[100px] md:h-[142px] shrink-0 rounded-[100px] border-4 border-white m-2 object-cover absolute left-[22px] md:left-[65px] top-[80px] md:top-[182px]"
+                    className="w-[100px] md:w-[142px] 2xl:w-[250px] h-[100px] md:h-[142px] 2xl:h-[250px] shrink-0 rounded-[100px] 2xl:rounded-full  border-4 border-white m-2 object-cover absolute left-[22px] md:left-[65px] 2xl:left-[181px] top-[80px] md:top-[182px] 2xl:top-[431px]"
                     src={profilePic} alt="" />
 
-                <button className='w-6 h-6 shrink-0 bg-[rgba(22,22,22,0.40)] rounded-full flex items-center justify-center absolute top-[157px] md:top-[283px] left-[98px] md:left-[169px]'>
+                <button className='w-6 h-6 shrink-0 bg-[rgba(22,22,22,0.40)] rounded-full flex items-center justify-center absolute top-[157px] md:top-[283px] 2xl:top-[612px] left-[98px] md:left-[169px] 2xl:left-[370px]'>
                     <img src={cameraIcon} alt="" />
                 </button>
 

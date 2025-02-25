@@ -15,11 +15,14 @@ const UserProfile = () => {
                 <ProfileBanner />
                 <ProfileName />
                 <ProfileButtons />
-                <HorizontalLine/>
+                <HorizontalLine />
                 <ProfileTab />
             </div>
-            <InfoPersonal />
-            <GeneralPost/>
+
+            <div className="2xl:flex 2xl:mt-4 2xl:px-[100px]">
+                <InfoPersonal />
+                <GeneralPost />
+            </div>
         </div>
     );
 };
