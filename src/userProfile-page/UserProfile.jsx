@@ -5,7 +5,7 @@ import ProfileBanner from "./profile-banner/ProfileBanner";
 import ProfileButtons from "./profile-button/ProfileButtons";
 import ProfileName from "./profile-name/ProfileName";
 import ProfileTab from "./profile-tab/ProfileTab";
-import FollowingRestaurants from './restraurant-following/RightDashboard'
+import RightDashboard from "../userProfile-page/restraurant-following/RightDashboard";
 
 
 const UserProfile = () => {
@@ -23,7 +23,7 @@ const UserProfile = () => {
             <div className="2xl:flex 2xl:mt-4 2xl:px-[100px]">
                 <InfoPersonal />
                 <GeneralPost />
-                <FollowingRestaurants />
+                <RightDashboard/>
             </div>
         </div>
     );
