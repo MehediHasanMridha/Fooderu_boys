@@ -36,7 +36,8 @@ const GeneralPost = () => {
                 {/* imgage of the post */}
                 <div>
                     <img className="mx-auto w-[414px] h-[246px] md:w-[755px] lg:w-[816px] md:h-[471px]  rounded-lg  flex justify-center items-center" src={image1} alt="" />
-                    <div className=" mt-1 flex items-center mx-auto w-[414px] h-[16px] md:w-[755px] lg:w-[816px] md:h-[22px]">
+                  <div className='flex'>
+                  <div className=" mt-1 flex items-center mx-auto w-[414px] h-[16px] md:w-[755px] lg:w-[816px] md:h-[22px]">
                         <div className="md:w-[177px] w-[150px] flex items-center my-auto md:h-[22px]">
                             <div className="">
                                 <svg className='h-4 w-4' xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -70,6 +71,9 @@ const GeneralPost = () => {
                             <p className="w-[41px] text-xs font-semibold text-[#585858] flex items-center justify-center">Tangail</p>
                         </div>
                     </div>
+                    {/* trending now */}
+                    <h1 className='text-xs font-semibold'>Trendings</h1>
+                  </div>
                 </div>
 
             </div>

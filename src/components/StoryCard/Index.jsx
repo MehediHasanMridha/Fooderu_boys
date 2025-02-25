@@ -2,7 +2,7 @@
 const StoryCard = ({ img }) => {
     return (
       <div
-        className="relative w-[128px] h-[173.18px] rounded-[8px] bg-cover bg-center bg-no-repeat flex flex-col justify-end p-2 2xl:w-[170px] 2xl:h-[230px]"
+        className="relative w-[128px]  h-[173.18px] rounded-[8px] bg-cover bg-center bg-no-repeat flex flex-col justify-end p-2 2xl:w-[170px] 2xl:h-[230px]"
         style={{
           backgroundImage: `url(${img})`,
         }}
