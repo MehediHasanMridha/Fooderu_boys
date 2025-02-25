@@ -11,7 +11,7 @@ import termsIcon from "../../assets/terms.svg";
 
 const Dashboard = () => {
   return (
-    <div className="hidden 2xl:m-6 2xl:p-6 2xl:w-[412px] 2xl:h-screen 2xl:flex 2xl:flex-col 2xl:gap-2 2xl:shadow-md">
+    <div className="hidden 2xl:p-6 2xl:w-[412px] 2xl:h-screen 2xl:flex 2xl:flex-col 2xl:gap-10 2xl:shadow-md">
       <div className="flex gap-2 items-center">
         <img src={profileIcon} alt="profile" className="w-12 h-12" />
         <p className="text-[20px] text-[#161616] font-medium font-inter">
