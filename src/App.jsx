@@ -1,4 +1,5 @@
 import LeftDashboard from "./components/left-dashboard/Index";
+import RightDashboard from "./components/right-dashboard/Index";
 import GeneralPost from "./GeneralPost";
 import Navbar from "./Navbar";
 import Stories from "./stories/Index";
@@ -17,7 +18,9 @@ function App() {
             <GeneralPost key={idx} />
           ))}
         </div>
-        <div>{/* <RightDashboard /> */}</div>
+        <div>
+          <RightDashboard />
+        </div>
       </div>
     </div>
   );

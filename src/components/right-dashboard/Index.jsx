@@ -1,8 +1,7 @@
-import Profile from "../../ui/profile";
-import Title from "../../ui/title";
-
 import pic1 from "../../assets/r-pic1.jpg";
 import Button from "../../ui/button";
+import Profile from "../../ui/profile/Index";
+import Title from "../../ui/title";
 
 const RightDashboard = () => {
   return (
