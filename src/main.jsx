@@ -1,10 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import UserProfile from './userProfile-page/UserProfile.jsx'
+// import UserProfile from './userProfile-page/UserProfile.jsx'
+import App from './App.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <UserProfile />
+   <App/>
   </React.StrictMode>,
 )
