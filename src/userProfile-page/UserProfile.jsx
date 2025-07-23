@@ -20,10 +20,10 @@ const UserProfile = () => {
                 <ProfileTab />
             </div>
 
-            <div className="2xl:flex 2xl:mt-4 2xl:px-[100px]">
+            <div className="lg:flex justify-between 2xl:mt-4 2xl:px-[100px]">
                 <InfoPersonal />
                 <GeneralPost />
-                <RightDashboard/>
+                <RightDashboard />
             </div>
         </div>
     );

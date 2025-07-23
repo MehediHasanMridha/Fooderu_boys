@@ -6,7 +6,7 @@ import Button from "../../ui/button/index";
 
 const RightDashboard = () => {
   return (
-    <div className="hidden 2xl:p-6 2xl:w-[412px] h-fit 2xl:flex 2xl:flex-col 2xl:gap-10 2xl:shadow-md">
+    <div className="hidden xl:block 2xl:p-6 2xl:w-[412px] h-fit 2xl:flex 2xl:flex-col 2xl:gap-10 2xl:shadow-md">
       {/* Followed Restaurants */}
       <Title title="Followed restaurants" />
       <div className="space-y-4">
