@@ -20,7 +20,7 @@ const UserProfile = () => {
                 <ProfileTab />
             </div>
 
-            <div className="lg:flex justify-between 2xl:mt-4 2xl:px-[100px]">
+            <div className="lg:flex justify-between xl:mt-4 2xl:px-[100px] xl:px-[50px]">
                 <InfoPersonal />
                 <GeneralPost />
                 <RightDashboard />
